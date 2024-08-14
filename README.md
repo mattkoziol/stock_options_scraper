@@ -4,8 +4,7 @@
 The Stock Options Arbitrage Analyzer is a Python program that identifies arbitrage opportunities in stock options. It fetches data from Yahoo Finance, analyzes it, and highlights potential arbitrage opportunities.
 
 ## Features
-- **Data Scraping**: Retrieves options data from Yahoo Finance.
-- **Data Parsing**: Extracts relevant option information.
+- **Data Scraping**: Retrieves options data using Yahoo API.
 - **Arbitrage Analysis**: Finds arbitrage opportunities using the Black-Scholes model.
 - **User Input**: Analyze multiple stock tickers and specify start dates.
 - **Yahoo Finance API Integration**
@@ -52,10 +51,9 @@ python main.py
   Input stock tickers and a start date when prompted.
 
 ## Modules
-- **arbitrage_analyzer.py**: Analyzes options data for arbitrage.
-- **data_parser.py**: Parses options data from HTML tables.
-- **utils.py**: Fetches stock prices from Yahoo Finance.
-- **data_scraper.py**: Scrapes options data and generates expiry dates.
+- **arbitrage_analyzer.py**: Analyzes options data for arbitrage opportunities.
+- **utils.py**: Provides utility functions, including fetching stock prices from Yahoo Finance.
+- **data_scraper.py**: Fetches options data and generates expiry dates using an API.
 - **main.py**: Main entry point for user interaction and data processing.
   
 ## Libraries & Resources
