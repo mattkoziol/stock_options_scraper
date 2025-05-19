@@ -55,7 +55,7 @@ The Stock Options Arbitrage Analyzer is a Python program that identifies arbitra
 
 6. **Run the Program:**
    ```bash
-   python main.py
+   python3 main.py
    ```
    Enter stock tickers when prompted (comma-separated).
 
