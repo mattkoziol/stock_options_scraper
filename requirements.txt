@@ -1,4 +1,7 @@
-requests
+
+requests>=2.31.0
 numpy
 pandas
-python-dotenv
+python-dotenv>=1.0.0
+yfinance
+
